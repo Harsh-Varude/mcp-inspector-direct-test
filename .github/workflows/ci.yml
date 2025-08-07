@@ -1,1 +1,7 @@
-"name: CI Test\non: [workflow_dispatch]\njobs:\n  build:\n    runs-on: ubuntu-latest\n    steps:\n      - run: echo \"Hello from a direct tool call!\"
+name: CI Test
+on: [workflow_dispatch]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello from a direct tool call!"
